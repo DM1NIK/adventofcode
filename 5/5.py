@@ -96,7 +96,6 @@ def seperator():
 			break
 		str1 += row + "\n"
 
-	# transform the rows list into a string
 	str2 = ""
 	for i in range(len(rows)):
 		row = rows[0]
