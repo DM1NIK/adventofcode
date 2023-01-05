@@ -25,7 +25,6 @@ def main():
 					pos_t[0] = pos_h[0]
 				else:
 					pos_t[1] = pos_h[1]
-			print(pos_t, pos_h)
 			map[pos_t[0]][pos_t[1]] = map[pos_t[0]][pos_t[1]] + 1
 
 	total = 0
